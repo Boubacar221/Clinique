@@ -1,0 +1,227 @@
+
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    transform: translateX(-20px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+    }
+    
+    h1 {
+    opacity: 0;  /* Initial state is invisible */
+    animation: fadeIn 10s ease forwards; /* 2 seconds duration */
+    text-align:center;
+    color:rgba(0, 0, 255, 0.47);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    
+    }
+h2{
+    opacity: 0;  /* Initial state is invisible */
+    animation: fadeIn 5s ease forwards; /* 2 seconds duration */
+    text-align:center;
+    color:rgba(47, 0, 255, 0.671);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
+    
+}
+body{
+    font-family: montserrat;
+}
+.haut{
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+
+}
+.lienhaut{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.lienhaut1{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+label.logo{
+    color: white;
+}
+.haut{
+    text-decoration: none;
+    color: blue;
+    word-spacing: 10px;
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: (0, 0, 0, 0.05);
+    
+}
+.ient_user{
+    background-color:rgba(175, 238, 238, 0.562);
+    text-align: center;
+    float: right;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 10rem;
+
+}
+
+.imageuser{
+    height: 17rem;
+    
+
+}
+footer{
+    margin-top: 25rem;
+    background-color:rgba(100, 148, 237, 0.783);
+    height: 7rem;
+}
+.lienfooter{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+ul{
+    float: left;
+    list-style: none;
+
+}
+.personnel{
+    height: 15rem;
+    width: 15rem;
+}
+.navbar{
+    float: left;
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 50rem;
+}
+.liendashboard{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    
+}
+.doctorimageconnect{
+    float: right;
+    margin-left: 2rem;
+}
+.formajoutpatient{
+    margin-top: 5rem;
+    border-radius: 10ch;
+    padding: 2rem;
+    background-color: rgba(175, 238, 238, 0.562);
+    
+}
+label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: cadetblue;
+    padding: 0px;
+    color: white;
+}
+.champs_analyse{
+    height: 150px;
+    width: 300px;
+    text-align: center;
+}
+td{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    background-color: aqua;
+    font-size: 20px;
+}
+tr{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    text-align: center;
+} 
+th{
+    width: 200vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+.boutonaction{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px ;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+table{
+    margin-top: 1rem;
+    background-color: aquamarine;
+    /* border-radius: 10px; */
+    /* background-color: azure; */
+    
+
+
+} 
+.bouttondashboard{
+    background-color: rgba(95, 158, 160, 0.269);
+    color: white;
+    height: 90px;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+.Liendashboard{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+    
+}
+.retour{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: cadetblue;
+    color: white;
+
+}
+.iconesaction{
+    height: 30px;
+}
+.personnel{
+    margin-top: 50px;
+    height: 15rem;
+    width: 20rem;
+}
+
+/* table {
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border-radius: 10px;
+    overflow: hidden;
+  } */
+.iconesocial{
+    float: right;
+    
+}
+
